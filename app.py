@@ -12,3 +12,5 @@ st.title("Loan Approval Prediction App 🚀")
 
 # contenu
 st.write("Bienvenue dans l'application de prédiction d'approbation de prêt. ")
+
+st.title("About")
