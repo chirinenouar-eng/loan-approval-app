@@ -13,7 +13,7 @@ st.write("Bienvenue dans l'application de prédiction d'approbation de prêt.")
 # mot de passe
 password = st.text_input("Entrez le mot de passe pour accéder à l'application :", type="password")
 
-if password == st.secrets["password"]:
+if password == st.secrets["app_password"]:
     st.success("Accès accordé ! Vous pouvez maintenant utiliser l'application.")
 
     # titre
